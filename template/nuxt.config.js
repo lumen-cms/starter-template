@@ -17,6 +17,14 @@ module.exports = {
   ** Customize the progress bar color
   */
   loading: { color: '#3B8070' },
+
+  // modules
+  modules: ['lumen-cms'],
+  'lumen-cms':{ 
+    // your configuration
+
+  },
+
   /*
   ** Build configuration
   */
