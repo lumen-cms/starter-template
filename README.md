@@ -25,9 +25,9 @@ Head over to [Lumen CMS](https://github.com/lumen-cms/lumen-graphcool)
 ```js
 // nuxt.config.js
 env:{
-	GRAPHQL_ALIAS: 'GRAPH_COOL_ALIAS', // change this
-    GRAPHQL_SUBSRIPTION: 'SUBSCRIPTION_API', // change this
-    GRAPH_FILE_API: 'GRAPH_COOL_FILE_API' // change this
+  GRAPHQL_ALIAS: 'GRAPH_COOL_ALIAS', // change this
+  GRAPHQL_SUBSRIPTION: 'SUBSCRIPTION_API', // change this
+  GRAPH_FILE_API: 'GRAPH_COOL_FILE_API' // change this
 }
 ```
 
