@@ -1,4 +1,12 @@
 module.exports = {
+
+  env: {
+    // Important! change this to your endpoint (https://github.com/lumen-cms/lumen-graphcool)
+    GRAPHQL_ALIAS: 'GRAPH_COOL_ALIAS',
+    GRAPHQL_SUBSRIPTION: 'SUBSCRIPTION_API',
+    GRAPH_FILE_API: 'GRAPH_COOL_FILE_API'
+  },
+
   /*
   ** Headers of the page
   */
