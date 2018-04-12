@@ -19,6 +19,19 @@ $ npm install # Or yarn install
 
 > Make sure to use a version of vue-cli >= 2.1 (`vue -V`).
 
+## Set up backend
+Head over to [Lumen CMS](https://github.com/lumen-cms/lumen-graphcool)
+### Add your endpoint
+```js
+// nuxt.config.js
+env:{
+	GRAPHQL_ALIAS: 'GRAPH_COOL_ALIAS', // change this
+    GRAPHQL_SUBSRIPTION: 'SUBSCRIPTION_API', // change this
+    GRAPH_FILE_API: 'GRAPH_COOL_FILE_API' // change this
+}
+```
+
+
 ## Usage
 
 ### Development
