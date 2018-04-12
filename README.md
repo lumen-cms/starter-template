@@ -1,8 +1,6 @@
 # Starter
 
-A [Nuxt.js](https://github.com/nuxt/nuxt.js) starter project template without the distraction of a complicated development environment.
-
-Live demo: https://starter.nuxtjs.org
+A [Nuxt.js](https://github.com/nuxt/nuxt.js) starter project template to set it up with [Lumen CMS](https://github.com/lumen-cms/lumen-cms).
 
 ## Prerequisites
 
