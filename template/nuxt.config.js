@@ -3,7 +3,8 @@ module.exports = {
   env: {
     // graph.cool backend variables (https://github.com/lumen-cms/lumen-graphcool)
     GRAPHQL_ALIAS: '{{projectId}}',
-    GRAPHQL_SUBSRIPTION: '{{subscription}}'
+    GRAPHQL_SUBSRIPTION: '{{subscription}}',
+    COPYRIGHT: 'Lumen CMS'
   },
 
   /*
