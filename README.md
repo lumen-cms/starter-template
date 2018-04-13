@@ -28,7 +28,7 @@ $ npm install # Or yarn install
 
 > Make sure to use a version of vue-cli >= 2.1 (`vue -V`).
 
-### Add your endpoint
+### Add your endpoint in case you haven't pasted it in the installation prompt
 ```js
 // nuxt.config.js
 env:{
