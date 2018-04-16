@@ -31,7 +31,6 @@ module.exports = {
   modules: ['lumen-cms'],
   'lumen-cms': {
     // your configuration
-
   },
 
   /*

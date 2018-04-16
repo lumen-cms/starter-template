@@ -12,7 +12,7 @@ Make sure to have `node 8.0+` and `npm 5.0+` installed
 * Head over to [Lumen CMS](https://github.com/lumen-cms/lumen-graphcool)
 * Follow all steps to set up your graph.cool backen
 * Prepare PROJECT_ID
-* Prepare supscription endpoint (bottom left corner of https://console.graph.cool)
+* Prepare subscription endpoint (bottom left corner of https://console.graph.cool)
 
 ## Installation
 
