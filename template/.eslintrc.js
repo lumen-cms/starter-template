@@ -34,9 +34,6 @@ module.exports = {
         'max': 4,
         'allowFirstLine': true
       }
-    }],
-    'vue/order-in-components': 0,
-    'vue/require-default-prop': 0,
-    'vue/attributes-order': 0
+    }]
   }
 }
