@@ -1,5 +1,3 @@
-const execSync = require('child_process').execSync
-
 module.exports = {
     helpers: {
         escape: function (value) {
