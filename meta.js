@@ -22,7 +22,7 @@ module.exports = {
         },
         projectId: {
             'type': 'string',
-            'message': 'graph.cool Project ID or Alias (required in nuxt.confg.js)',
+            'message': 'graph.cool Project ID (required in nuxt.confg.js)',
             'required': true
         },
         subscription: {
