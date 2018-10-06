@@ -12,11 +12,10 @@ Make sure to have `node 8.0+` and `npm 5.0+` installed
 * Head over to [Lumen CMS](https://github.com/lumen-cms/lumen-graphcool)
 * Follow all steps to set up your graph.cool backen
 * Prepare PROJECT_ID
-* Prepare subscription endpoint (bottom left corner of https://console.graph.cool)
 
 ## Installation
 
-This is a project template for [vue-cli](https://github.com/vuejs/vue-cli).
+This is a project template for [vue-cli](https://github.com/vuejs/vue-cli) v2 (not v3)
 
 ``` bash
 $ vue init lumen-cms/starter-template my-project
@@ -33,7 +32,16 @@ $ npm install # Or yarn install
 // nuxt.config.js
 env:{
   GRAPHQL_PROJECT_ID: 'GRAPH_COOL_PROJECT_ID', // change this
-  GRAPHQL_SUBSRIPTION: 'SUBSCRIPTION_API' // change this
+},
+'lumen-cms':{
+   apollo: {
+        clientConfigs: {
+          default: {
+            httpEndpoint: 'https://api.graph.cool/simple/v1/GRAPH_COOL_PROJECT_ID', // change your data here
+            wsEndpoint: null
+          }
+        }
+      }
 }
 ```
 
