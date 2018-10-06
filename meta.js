@@ -24,10 +24,6 @@ module.exports = {
             'type': 'string',
             'message': 'graph.cool Project ID (required in nuxt.confg.js)',
             'required': true
-        },
-        subscription: {
-            'type': 'string',
-            'message': 'graph.cool subscription endpoint (required in nuxt.confg.js)',
         }
     },
     completeMessage: '{{#inPlace}}To get started:\n\n  npm install # Or yarn\n  npm run dev{{else}}To get started:\n\n  cd {{destDirName}}\n  npm install # Or yarn\n  npm run dev{{/inPlace}}'
